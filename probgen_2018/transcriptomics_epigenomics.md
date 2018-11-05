@@ -24,6 +24,13 @@
 *
 
 
-## Smita Krishnaswamy, Yale, *Manifold learning yields insight into cellular state space under complex experimental conditions*
+### Smita Krishnaswamy, Yale, *Manifold learning yields insight into cellular state space under complex experimental conditions*
 * scRNA-seq is very heterogeneous, high dimensional
-* Use unsupervised methods to understand patterns in data 
+* Use unsupervised methods to understand patterns in data
+* Challenges w/ scRNA-seq - sparsity, noise, non-linearity, scale
+* Data seems high dimensional because of ambient measurements, there are many genes but high degree of redundancy. However, because of cell types/states are constrained by biology, can use this to learn shapes
+* Shape can be learned by non-linear dimensionality reduction, included graph signal processing or deep learning
+* Differentiation and state change occurs in smooth gradual steps
+* Creating a data graph- walk via small local steps in teh data and compute probability of reaching every node
+* Random walk = diffusion
+* PHATE visualization- keeps local and global structure 
