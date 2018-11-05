@@ -21,7 +21,7 @@
 * Different mutation classes show distinct trends of male bias
 * Genomic distribution of paternal CpG > TpG mutations is associated with methylation levels in testis
 * Can accumulation of DNA damage explain increase in maternal mutations?
-*
+* **TL;DR** there are differing male/female mutation rates, largely attributed to differences in spermatogenesis, oovogenesis 
 
 
 ### Smita Krishnaswamy, Yale, *Manifold learning yields insight into cellular state space under complex experimental conditions*
@@ -33,4 +33,29 @@
 * Differentiation and state change occurs in smooth gradual steps
 * Creating a data graph- walk via small local steps in teh data and compute probability of reaching every node
 * Random walk = diffusion
-* PHATE visualization- keeps local and global structure 
+* PHATE visualization- keeps local and global structure
+* **TL;DR** - use manifold learning techniques to better visualize complex scRNA-seq data
+
+
+### Danila Bredikhin, EMBL, *Multi-group factor decomposition of single-cell transcriptome profiles*
+* Approaches to analyze single-cell RNA sequencing data: clustering, trajectories, factor decomposition
+* Modeling considerations - group structure, factors interpretability, scalability
+* Multi-group factor analysis (MuGFA) model
+* automatic relevance determination, group relevance priors on factors group
+* sparsity priors on cells
+* **TL;DR** use fancy models to analyze scRNA-seq
+
+
+### Harold Pimental, Stanford *Fast intron retention quantitative trait loci discovery*
+* intron retention - a mode of alternative splicing
+* sporadic intron retention events have been observed in neurons, granulocytes and cancers
+* Average human intron is long
+* Intron retention - nonsense mediated decay
+* Intron retention regulates gene expression in granulocytes
+* A large fraction of genes contain retained introns
+* in typical RNA-seq analysis we ignore reads that map out of transcript annotations
+* gene expression covaries with genotype
+* irQTL and eQTL effects are mildly anti-correlated
+* irQTL and sQTL are midly correlated
+* irSNPs are centered in their corresponding genes, and many fall near corresponding introns, very close to junctions
+* **TL;DR** - used rna-seq alignment software to find intron retention qtls and observed some genetic effects
