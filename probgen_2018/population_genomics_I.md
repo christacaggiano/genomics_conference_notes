@@ -36,3 +36,10 @@
 * Conditional site frequency spectrum- Restrict to all the sites that are 1 in Neanderthal, create spectrum of Africans at those SNPs
 * Yoruba population model seems to be a more complicated model of population demography, including non-random mating
 * **TL;DR** boosts power by combining weakly informative summary stats from present day genomes, reference free inference of archaic local ancestry; evidence for introgression in Yoruba from a divergent population
+
+
+### Kelsey Johnson, Penn, *A method to identify recurrent mutations from unphased population-level sequencing data*
+* recurrent mutation - derive from same mutation events occurring independently
+* Recurrent mutations are hallmarks of Mendelian diseases and some complex, like autism
+* Usually done in family based studies, but what about population? How to determine whether it is recurrent or IBD?
+*
