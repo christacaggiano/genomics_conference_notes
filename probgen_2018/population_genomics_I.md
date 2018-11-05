@@ -42,4 +42,15 @@
 * recurrent mutation - derive from same mutation events occurring independently
 * Recurrent mutations are hallmarks of Mendelian diseases and some complex, like autism
 * Usually done in family based studies, but what about population? How to determine whether it is recurrent or IBD?
-*
+* recombination distances follow a predictable pattern
+* Recurrent mutation as a function of substitution probability
+* **TL;DR** uses a simple model for trying to decide if mutation is recurrent or IBD using population level sequencing data
+
+
+### Leo Speidel, Oxford, *Reconstructing the genealogies of humans and wild mice*
+* Given present day sequence data, can we reconstruct the genealogy? And how can we use the genealogies for inference
+* Traditional genealogy estimate based on coalescent with recombination, only scale to tens of samples
+* Use Li-and-Stephens model to locally estimate genealogy
+* Can estimate population size, mutation rate, evidence for selection
+* New statistic that captures to what extent a lineage out-competed other lineages 
+* **TL;DR** sequencing data --> genealogy, can use this to do cool stuff
