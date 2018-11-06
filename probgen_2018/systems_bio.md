@@ -30,3 +30,19 @@
 * interpreting variants  - need to consider interaction of AA variants, because context affects whether deleterious or not
 * use evolutionary coupling model to predict effect of mutations
 * use deep mutational scanning data to predict position and amino-acid specific effects
+
+
+### Daniel Wells, Oxford *Decomposition of mouse spermatogenesis at single-cell
+resolution reveals dynamic transcriptional programs orchestrated by a rich regulatory repertoire*
+* testis- host process of meiosis
+* drop-seq of testis, 20,000 cells
+* decompose gene x cell matrix = cells x components * components x genes
+* can impute gene expression values - solves some dropout issues
+
+
+### Joe Wu, University of Toronto, *Improved pathogenic variant detection by learning rules of functional constraint from massively parallel variant effect assays*
+* computational methods to infer protein function
+* many methods use multiple sequence alignment, ML
+* experimental methods- massively parallel assays of variant effect (MAVE)
+* variant effect maps - pos in protein x AA, colored by loss/gain of function
+* train predictors on experimental data
