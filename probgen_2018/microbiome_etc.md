@@ -43,9 +43,21 @@
 * pairwise rules highly constrain phylogenies
 * **TL;DR** making cancer phylogenies is harder than you'd expect, there are simple rules to make clever programs to make it easier though
 
+
 ### Heather Gibling, Ontario Institute for Cancer Research
+* repetitive regions are difficult to genotype - solution k-mers
 * PRDM9 impacts pan-cancer genomic landscape
 * use k-mer count profiles to call alleles
 * k-mer count profile similarity measured using the probability mass function of a Poisson distribution
 * eventually going to use paired end allele calling and genotyping
-* **TL;DR** ? idk
+* **TL;DR** using kmer counting can call alleles more accurate in repetitive regions
+
+
+### David Enard, U of A, *Detecting ancient viral epidemics in human evolution*
+* adaption against viruses- fast evolving anti-viral proteins
+* PKR - abundant adaption in mammals
+* viruses that interact with host proteins - could be ~20% of the human proteome
+* viral interacting proteins are broadly conserved and constrained proteins
+* VIPs are specifically enriched in strong adaptive events, in animals and fungi
+* viral interacting proteins are enriched in selective sweeps
+* 
