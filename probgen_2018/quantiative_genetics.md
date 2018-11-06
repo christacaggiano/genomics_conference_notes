@@ -77,4 +77,4 @@
   - transmission distortion
   - sexual antagonism/sexual conflict
   - impact of non-transmitted allele
-* elston-stewart algorithm provdes flexible way to construct LR tests on pedigres  
+* **TL;DR** elston-stewart algorithm provdes flexible way to construct LR tests on pedigrees  
