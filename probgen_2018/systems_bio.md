@@ -21,3 +21,12 @@
 * clusters that are significant
     - >median branch length
     - branch length gap is > than 2 scaled absolutes deviations from branch length medians
+
+
+### Debbie Marks, Harvard, *Generative models of sequences give 3D structure and effects of mutations*
+* predicting protein structure w/ evolutionary coupling
+* use maximum likelihood estimation
+* method can be used to predict structure of proteins, RNA
+* interpreting variants  - need to consider interaction of AA variants, because context affects whether deleterious or not
+* use evolutionary coupling model to predict effect of mutations
+* use deep mutational scanning data to predict position and amino-acid specific effects
